@@ -1,0 +1,21 @@
+.todo {
+  @apply border-b border-gray-700 cursor-pointer dark:md:hover:bg-gray-800;
+}
+
+.todo.done {
+  @apply opacity-50 line-through ;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
